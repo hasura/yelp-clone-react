@@ -1,13 +1,31 @@
+@font-face {
+  font-family: "IMFell";
+  src: url("/fonts/IM_Fell_Great_Primer_SC/IMFellGreatPrimerSC-Regular.ttf");
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Poppins", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 2.4rem;
+  background-color: #f7f7f7;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
