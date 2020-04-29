@@ -34,3 +34,7 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+h3 {
+  margin-bottom: 0;
+}

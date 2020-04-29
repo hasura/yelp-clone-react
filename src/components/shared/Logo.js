@@ -6,6 +6,7 @@ const LogoText = styled.h1`
   font-size: 10rem;
   color: grey;
   margin: 0;
+  text-align: center;
 `;
 
 const Logo = () => {
